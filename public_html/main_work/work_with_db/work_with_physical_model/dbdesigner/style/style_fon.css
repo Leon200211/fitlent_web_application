@@ -1,0 +1,19 @@
+.fon {
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;
+
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+    outline: 4px solid #222;
+    overflow: auto;
+
+    border: medium double black;
+    width: 4000px;
+    height: 2000px;
+
+    margin-right: 100px;
+    margin-bottom: 100px;
+}

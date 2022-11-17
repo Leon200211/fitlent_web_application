@@ -1,0 +1,21 @@
+.body_table{
+    display: flex;
+    justify-content: left;
+
+    background-color: grey;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body_table_blocks {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /*border-right: 1px solid maroon; !* Параметры линии под текстом *!*/
+    /*border-left: 1px solid maroon; !* Параметры линии под текстом *!*/
+
+}

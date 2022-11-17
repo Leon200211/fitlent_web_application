@@ -1,0 +1,163 @@
+.fon {
+
+    width: 400px;
+
+    height: 400px;
+
+    background: #e8e8e8;
+
+
+
+    margin: 0;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    margin-right: -50%;
+
+    transform: translate(-50%, -50%)
+
+
+
+}
+
+
+
+.polosca {
+
+    width: 400px;
+
+    height: 6px;
+
+
+
+    background: #aeaeae;
+
+}
+
+
+
+.vhod{
+
+    color: #3a3a3a;
+
+    font-size: 21px;
+
+
+
+    margin-top: 50px;
+
+    margin-left: 25px;
+
+}
+
+
+
+.polosca_mini{
+
+    width: 350px;
+
+    height: 1px;
+
+
+
+    background: #d2d2d2;
+
+
+
+    margin: 0 auto;
+
+}
+
+
+
+.login__ {
+
+    width: 250px;
+
+    height: 25px;
+
+
+
+    color: #8c8c8c;
+
+
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+
+    margin-top: 75px;
+
+    margin-left: 50px;
+
+
+
+
+
+}
+
+
+
+
+
+.password__ {
+
+    width: 250px;
+
+    height: 25px;
+
+
+
+    color: #8c8c8c;
+
+
+
+    margin-top: 40px;
+
+
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+
+
+
+    margin-left: 50px;
+
+}
+
+
+
+.button {
+
+
+
+    background-color: #974b4b;
+
+    color: black;
+
+
+
+    width: 190px;
+
+    height: 40px;
+
+
+
+    font-size: 20px;
+
+
+
+    margin-top: 70px;
+
+    margin-left: 110px;
+
+}

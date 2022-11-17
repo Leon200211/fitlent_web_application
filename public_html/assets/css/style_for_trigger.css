@@ -1,0 +1,56 @@
+.add_trigger_main {
+    width: 300px;
+    height: 400px;
+
+    margin-top: 20px;
+
+    background-color: #e4e4e4;
+
+    border-radius: 20px;
+    border: 3px solid grey; /* Параметры рамки */
+
+    padding: 20px;
+}
+
+.trigger_name {
+    width: 280px;
+    height: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+.trigger_table {
+    width: 290px;
+    height: 30px;
+
+    margin-bottom: 20px;
+}
+
+.trigger_when {
+    width: 290px;
+    height: 30px;
+
+    margin-bottom: 20px;
+}
+
+.trigger_event {
+    width: 290px;
+    height: 30px;
+
+    margin-bottom: 20px;
+}
+
+
+.trigger_main {
+    width: 285px;
+    height: 150px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+

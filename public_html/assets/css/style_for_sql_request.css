@@ -1,0 +1,27 @@
+.request_body{
+    padding: 40px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+}
+
+.request_body_line1{
+    display: flex;
+    justify-content: left;
+}
+
+
+.sql_field {
+    width: 800px;
+    height: 200px;
+    resize: none;
+}
+
+
+.list_columns {
+    width: 300px;
+    height: 205px;
+
+    background-color: white;
+
+    margin-left: 40px;
+}
