@@ -1,5 +1,4 @@
 <?php
-require_once '../../connection.php';
 
 
 $db = $_GET['db'];
@@ -38,7 +37,8 @@ $user_name = mysqli_fetch_assoc($user_name)
 <div class="main_body">
     <div>
         <?php
-        include('../../header.php');
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        include($path . '/header.php');
         ?>
     </div>
 

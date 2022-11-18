@@ -118,7 +118,7 @@ if (!$connect) {
                             </a>
                         </div>
                         <div>
-                            <a class="doing_link" href="work_with_db/work_with_procedures/table_procedures.php">
+                            <a class="doing_link" href="work_with_db/work_with_procedures/table_procedures.php?db=<?=$db?>">
                                 <div>
                                     <img src="../assets/img/img_17.png" width="30" height="30" title="События">
                                 </div>
