@@ -1,8 +1,5 @@
 .fon {
 
-    width: 400px;
-
-    height: 400px;
 
     background: #e8e8e8;
 
@@ -18,10 +15,12 @@
 
     margin-right: -50%;
 
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 
+    padding-bottom: 40px;
 
-
+    border-radius: 5px;
+    border: 2px solid black; /* Параметры границы */
 }
 
 

@@ -62,7 +62,7 @@ $id_user = $_GET['id_user'];
                             $database_array[] = $row['Database'];
                             ?>
                             <div>
-                                <a href="user_rights_for_db.php?db=<?=$row['Database']?>&id_user=<?=$id_user?>">
+                                <a href="users_setting_access_rights.php?type=database&db=<?=$row['Database']?>&id_user=<?=$id_user?>">
                                     <img src="../../../../assets/img/img_9.png" width="15" height="15" style="margin-top: 10px;" title="БД">
                                     <?= $row['Database'] ?>
                                     - Настроить права доступа
@@ -92,7 +92,6 @@ $id_user = $_GET['id_user'];
                                 <th class="th_title_info"> Кол-во строк </th>
                                 <th class="th_title_info"> Тип </th>
                                 <th class="th_title_info"> Дата создания </th>
-                                <th class="th_title_info"></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -107,7 +106,7 @@ $id_user = $_GET['id_user'];
                                         <td><?= $row['Rows'] ?></td>
                                         <td><?= $row['Engine'] ?></td>
                                         <td><?= $row['Create_time'] ?></td>
-                                        <td><a href="user_rights_for_table.php?db=<?=$value?>&table=<?=$row['Name']?>&id_user=<?=$id_user?>">Настроить права доступа</a></td>
+                                        <td><a href="users_setting_access_rights.php?type=table&db=<?=$value?>&table=<?=$row['Name']?>&id_user=<?=$id_user?>">Настроить права доступа</a></td>
                                     </tr>
                             <?php
                             }
