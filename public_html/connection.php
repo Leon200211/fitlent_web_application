@@ -1,10 +1,10 @@
 <?php
 
+session_start();
 
-
-$link = mysqli_connect('127.0.0.1:3307', 'root', 'root');
+$link = @mysqli_connect($_SESSION['connection']['hostname'], $_SESSION['connection']['user_name'], $_SESSION['connection']['password']);
 if (!$link) {
-    die('Ошибка соединения: ' . mysqli_error());
+    die('Ошибка соединения');
 }
 
 ?>
