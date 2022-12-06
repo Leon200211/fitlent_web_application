@@ -34,7 +34,7 @@ if ($connect_to_new_server->connect_errno) {
 
     /* изменяем базу данных" */
     // если на сервере уже создана среда для работы
-    if ($connect_to_new_server->select_db("test_scritp")) {
+    if ($connect_to_new_server->select_db("admin_panel")) {
 
         $result = $connect_to_new_server->query("SELECT * FROM `users` WHERE `connection_name` = '$user_name' AND `connection_password` = '$password'");
         $now_user = $result->fetch_assoc();
@@ -60,7 +60,7 @@ if ($connect_to_new_server->connect_errno) {
         if ($is_admin == true) {
             if (create_environment_for_work($host, $user_name, $password)) {
                 // подключаемся к серверу
-                $connect_to_admin_panel = new mysqli($hostname, $user_name, $password, 'test_scritp');
+                $connect_to_admin_panel = new mysqli($hostname, $user_name, $password, 'admin_panel');
                 // создаем пользователя в гуи для администратора
                 $connect_to_admin_panel->query("INSERT INTO `users` (`name`, `login`, `pass`, `state`, `connection_name`, `connection_password`) VALUES ('root', '$user_name', '$password', 'main_admin', '$user_name', '$password')");
 

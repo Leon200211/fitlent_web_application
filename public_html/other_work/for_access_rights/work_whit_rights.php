@@ -44,6 +44,13 @@ require_once $path . '/connection.php'
         <h1>Настройка прав доступа</h1>
 
         <div>
+            <a href="synchronization_environment_with_server.php">Синхронизировать среду с сервером</a>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div>
             <a href="access_rights_for_users/rights_for_users.php">Права доступа для users</a>
             <br>
             <a href="#">Права доступа для элементов - В разработке</a>

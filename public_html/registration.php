@@ -25,7 +25,7 @@ if (!empty($_POST['login']) && !empty($_POST['password'])) {
     }
 
     // проверяем на наличие среды
-    if (!$link->select_db("test_scritp")) {
+    if (!$link->select_db("admin_panel")) {
 
         // ошибка import .sql
 

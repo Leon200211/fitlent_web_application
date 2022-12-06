@@ -46,7 +46,7 @@ function create_environment_for_work($host, $user_name, $password){
 
     $filename_2 = "admin_panel.sql";
     // формируем запрос к консоли бд
-    $command_2 = 'mysql -h ' . $host . ' -u ' . $user_name . ' -p' . $password . ' test_scritp' . ' < ' . $filename_2;
+    $command_2 = 'mysql -h ' . $host . ' -u ' . $user_name . ' -p' . $password . ' admin_panel' . ' < ' . $filename_2;
     // выполняем команду
     exec($command_2, $output_2, $worked_2);
     switch ($worked_2) {
